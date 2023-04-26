@@ -753,3 +753,6 @@ def potega(liczba, wykladnik):
 wynik=potega(4,3)
 print(wynik)
 
+def max(lista,najwieksza):
+    if ...
+
