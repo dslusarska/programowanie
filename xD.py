@@ -742,16 +742,14 @@
 # wynik=nta(lista,2)
 # print(wynik)
 
-# def potega(liczba, wykladnik):
-#     if wykladnik == 0:
-#         return 1
-#     elif wykladnik == 1:
-#         return liczba
-#     else:
-#         return liczba*potega(liczba,wykladnik-1)
+def potega(liczba, wykladnik):
+    if wykladnik == 0:
+        return 1
+    elif wykladnik == 1:
+        return liczba
+    else:
+        return liczba*potega(liczba,wykladnik-1)
 
-# wynik=potega(4,3)
-# print(wynik)
+wynik=potega(4,3)
+print(wynik)
 
-def max(lista,najwieksza):
-    if 
